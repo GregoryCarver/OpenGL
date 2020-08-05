@@ -71,7 +71,7 @@ int main(void)
     GLFWwindow* window;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(1280, 1024, "OPenGL Window", NULL, NULL);
+    window = glfwCreateWindow(1280, 1024, "OpenGL Window", NULL, NULL);
     
     if (!window)
     {

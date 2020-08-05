@@ -1,17 +1,14 @@
 /******************************************************************************************************************************************************
-*
-* Created By:
-* Course: COP3530
-* Project 3: Comparison Between Sorting Algorithms(title work in progress)
-* Professor: Kapoor
+* Created By: Gregory Carver
+* Project: Comparison Between Sorting Algorithms(title work in progress)
 *
 * Last Update: 31 July 2020 (added speed controls and comments)
 *
 * Need to do: abstract the rendering, fix process input, add controls to switch between merge and quick.
-
-  Citations: Some code regarding rendering and controls were adapted from https://learnopengl.com/Introduction, accessed last on 7/30/2020,
-             Author: Joey de Vries
-             https://learnopengl.com/Getting-started/Textures - used to load menu texture into rectangle
+*
+* Citations: Some code regarding rendering and controls were adapted from https://learnopengl.com/Introduction, accessed last on 7/30/2020,
+*            Author: Joey de Vries
+*            https://learnopengl.com/Getting-started/Textures - used to load menu texture into rectangle
 *******************************************************************************************************************************************************/
 
 #include <glew.h>
@@ -74,7 +71,7 @@ int main(void)
     GLFWwindow* window;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(1280, 1024, "BC2 Final Project", NULL, NULL);
+    window = glfwCreateWindow(1280, 1024, "OPenGL Window", NULL, NULL);
     
     if (!window)
     {

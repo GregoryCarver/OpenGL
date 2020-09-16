@@ -1,5 +1,5 @@
 /******************************************************************************************************************************************************
-* Created By: Gregory Carver
+* Created By: Gregory Carver, Sarah Brown, Conrad Cole
 * Project: Comparison Between Sorting Algorithms(title work in progress)
 *
 * Last Update: 31 July 2020 (added speed controls and comments)
@@ -140,7 +140,7 @@ int main(void)
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
     // texture attribute
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
 
@@ -342,7 +342,7 @@ int main(void)
             glUniform3fv(glGetUniformLocation(programIDTwo, "position"), 1, &position[0]);
 
             glBindVertexArray(VAO);
-            glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+            //glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
             glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
         }
 

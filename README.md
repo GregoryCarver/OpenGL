@@ -10,4 +10,4 @@ Controls:
 - While not sorting, press r to randomize data. Won't work while sorting, not even when paused.
 - 1 and 2 keys used to select merge sort or quicksort respectively. 
 
-![Alt Text](https://media.giphy.com/media/4dHX5gTsuROOZZxsBZ/giphy.gif)
+![Merge Sort](https://media.giphy.com/media/4dHX5gTsuROOZZxsBZ/giphy.gif)

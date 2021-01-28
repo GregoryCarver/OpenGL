@@ -9,3 +9,5 @@ Controls:
 - '-' and '=' keys used to lower and raise speed of animation.
 - While not sorting, press r to randomize data. Won't work while sorting, not even when paused.
 - 1 and 2 keys used to select merge sort or quicksort respectively. 
+
+![hippo](https://gph.is/g/ZYpeY33)

@@ -11,4 +11,5 @@ Controls:
 - 1 and 2 keys used to select merge sort or quicksort respectively. 
 
 Merge Sort:
-![](https://github.com/Truth7442/gifs/blob/master/Merge%20Sort%20Visualization.gif)
+
+<img src="https://github.com/Truth7442/gifs/blob/master/Merge%20Sort%20Visualization.gif" width="720" height="540"/>

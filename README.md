@@ -13,3 +13,7 @@ Controls:
 Merge Sort:
 
 <img src="https://github.com/Truth7442/gifs/blob/master/Merge%20Sort%20Visualization.gif" width="720" height="540"/>
+
+Quick Sort:
+
+<img src="https://github.com/Truth7442/gifs/blob/master/Quick%20Sort.gif" width="720" height="540"/>
